@@ -1,0 +1,52 @@
+body {
+	background-image: linear-gradient(-20deg, #D558C8 0%, #24D292 100%);
+}
+
+h1 {
+	font-family: 'Comfortaa', cursive;
+	font-size: 60px;
+	color: #FF7EB3;
+}
+
+h2 {
+	margin: 10px 0;
+	padding: 0;
+}
+
+p {
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 30px;
+	color: lightgreen;
+}
+
+button {
+	font-size: 40px;
+	padding: 10px;
+}
+
+form {
+	width: 75%;
+	margin: 0 auto;
+	background-image: linear-gradient(to right, #EEA2A2 0%, #BBC1BF 19%, #57C6E1 42%, #B49FDA 79%, #7AC5D8 100%);
+	padding: 20px;
+	margin-bottom: 40px;
+	font-family: monospace;
+	color: whitesmoke;
+	font-size: 30px;
+}
+
+label {
+	min-width: 100px;
+	display: inline-block;
+}
+
+.formWrap {
+	margin-bottom: 10px;
+}
+
+#sightingsGrid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
